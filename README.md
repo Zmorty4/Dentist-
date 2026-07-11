@@ -1,25 +1,15 @@
-# Dantoa Dental Website
+Exit code: 0
+Wall time: 5.7 seconds
+Output:
+# BrightDental landing page
 
-Адаптивный стоматологический лендинг в стиле присланного референса.
+Faithful responsive frontend recreation of the supplied BrightDental reference image.
 
-## В проекте
-- Десктопная и мобильная версии
-- Hero, услуги, врачи, преимущества, контакты
-- Форма заявки
-- Отправка заявки в Telegram
-- Без админки и без онлайн-бронирования
+## Data tables
 
-## Telegram на Vercel
-Откройте `Settings → Environment Variables` и добавьте:
+`script.js` contains the editable `services` and `benefits` tables. Update those arrays to change the service cards, footer service list, and feature panel without touching the markup.
 
-- `TELEGRAM_BOT_TOKEN`
-- `TELEGRAM_CHAT_ID`
+## Run
 
-После этого сделайте Redeploy.
+Open `index.html` directly in a browser. No build step is required.
 
-## Перед продажей замените
-- Название клиники
-- Телефон и адрес
-- Фото и врачей
-- Услуги
-- Telegram ID владельца
