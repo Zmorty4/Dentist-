@@ -1,143 +1,42 @@
-<!DOCTYPE html>
-<html lang="ru">
+Exit code: 0
+Wall time: 5.4 seconds
+Output:
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Современная стоматология для всей семьи">
-  <title>Dantoa — стоматология</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BrightDental вЂ” Better Care. Brighter Smiles.</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<header class="header">
-  <div class="container nav">
-    <a class="logo" href="#home"><span>✦</span>Dantoa</a>
-    <nav class="desktop">
-      <a href="#home">Главная</a><a href="#about">О клинике</a><a href="#services">Услуги</a><a href="#doctors">Врачи</a><a href="#contacts">Контакты</a>
-    </nav>
-    <div class="nav-right">
-      <a class="phone" href="tel:+77001234567">+7 700 123 45 67</a>
-      <a class="btn cyan" href="#lead">Оставить заявку</a>
-      <button id="menuBtn" class="menu">☰</button>
-    </div>
-  </div>
-  <div id="mobileMenu" class="mobile-nav">
-    <a href="#home">Главная</a><a href="#about">О клинике</a><a href="#services">Услуги</a><a href="#doctors">Врачи</a><a href="#contacts">Контакты</a>
-  </div>
-</header>
+  <div class="top-space"></div>
+  <header class="nav-wrap">
+    <a class="brand" href="#home"><span class="tooth">в—Љ</span><span><b>Bright<span>Dental</span></b><small>WE CARE FOR YOUR SMILE</small></span></a>
+    <button class="menu" aria-label="Open menu">в°</button>
+    <nav><a class="active" href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#patients">Patients</a><a href="#reviews">Reviews</a><a href="#blog">Blog</a><a href="#contact">Contact</a></nav>
+    <a class="button primary nav-cta" href="#booking">в–Ј &nbsp; Book Appointment</a>
+  </header>
 
-<main>
-<section class="hero" id="home">
-  <div class="container hero-grid">
-    <div>
-      <p class="eyebrow">Забота о вашей улыбке</p>
-      <h1>Сохраняем вашу улыбку здоровой и красивой.</h1>
-      <p class="lead">Современная стоматология, точная диагностика, внимательные врачи и понятный план лечения.</p>
-      <div class="hero-actions">
-        <a class="btn dark" href="#lead">Записаться на консультацию</a>
-        <a class="plain" href="#services">Посмотреть услуги →</a>
-      </div>
-      <div class="rating"><strong>12 398</strong><span>★★★★★<small>довольных пациентов</small></span></div>
-    </div>
-    <div class="hero-photo">
-      <div class="circle"></div>
-      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=85" alt="Улыбающаяся девушка">
-      <div class="float"><b>Безболезненно</b><small>Современные технологии лечения</small></div>
-    </div>
-  </div>
-</section>
+  <main id="home">
+    <section class="hero section-pad">
+      <div class="hero-copy"><p class="eyebrow">YOUR SMILE, OUR PASSION</p><h1>Better Care.<br><strong>Brighter Smiles.</strong></h1><p class="lead">We provide personalized dental care with advanced technology in a comfortable, relaxing environment.</p><div class="actions"><a class="button primary" href="#booking">в–Ј &nbsp; Book Appointment</a><a class="button outline" href="#about">в–· &nbsp; Watch Video</a></div><div class="trust-row"><span>в™§ <b>Gentle<br>Care</b></span><span>в™ў <b>Advanced<br>Technology</b></span><span>в™™ <b>Experienced<br>Team</b></span><span>вє <b>Comfortable<br>Environment</b></span></div></div>
+      <div class="hero-photo"></div>
+    </section>
 
-<section class="about" id="about">
-  <div class="container center narrow">
-    <p class="eyebrow">О клинике</p>
-    <h2>Уверенность начинается со здоровой улыбки</h2>
-    <p>Мы объединяем опыт врачей, современное оборудование и спокойную атмосферу, чтобы лечение было комфортным и понятным.</p>
-    <a class="btn dark" href="#lead">Получить консультацию</a>
-  </div>
-  <div class="container gallery">
-    <div class="tile tall"><img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=700&q=80" alt=""></div>
-    <div class="tile"><img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=700&q=80" alt=""></div>
-    <div class="tile"><img src="https://images.unsplash.com/photo-1606265752439-1f18756aa376?auto=format&fit=crop&w=700&q=80" alt=""></div>
-    <div class="tile mission"><span>Наша миссия</span><b>Здоровые улыбки без страха</b><a href="#services">→</a></div>
-  </div>
-</section>
+    <section id="services" class="services section-pad"><p class="eyebrow center">OUR SERVICES</p><h2>Complete Dental Care Under One Roof</h2><div class="rule"></div><div id="service-grid" class="service-grid"></div><a class="button outline center-btn" href="#booking">View All Services&nbsp; в†’</a></section>
 
-<section class="services" id="services">
-  <div class="container">
-    <div class="section-head">
-      <div><p class="eyebrow">Наши услуги</p><h2>Специализированная стоматологическая помощь</h2></div>
-      <a class="btn dark" href="#lead">Оставить заявку</a>
-    </div>
-    <div class="service-grid">
-      <img class="service-photo" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=900&q=85" alt="Лечение зубов">
-      <div class="service-list">
-        <a href="#lead">Лечение кариеса <span>→</span></a>
-        <a href="#lead">Профессиональная чистка <span>→</span></a>
-        <a href="#lead">Имплантация <span>→</span></a>
-        <a href="#lead">Протезирование <span>→</span></a>
-        <a href="#lead">Исправление прикуса <span>→</span></a>
-        <a href="#lead">Отбеливание зубов <span>→</span></a>
-      </div>
-    </div>
-  </div>
-</section>
+    <section id="about" class="about section-pad"><div class="about-copy"><p class="eyebrow">ABOUT US</p><h2>Why Choose<br><strong>Bright Dental?</strong></h2><p>We're dedicated to providing exceptional dental care for you and your family. Your comfort, health and confidence are our top priorities.</p><ul><li>Skilled & Compassionate Team</li><li>State-of-the-Art Technology</li><li>Personalized Treatment Plans</li><li>Convenient & Flexible Appointments</li></ul><a class="button primary" href="#booking">Learn More About Us</a></div><div class="about-photo"></div><div class="benefits" id="patients"></div></section>
 
-<section class="care">
-  <div class="container care-grid">
-    <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1000&q=85" alt="Стоматологический прием">
-    <div>
-      <p class="eyebrow">Комфорт на каждом этапе</p>
-      <h2>Мы бережно заботимся о вашей улыбке</h2>
-      <p>Врач подробно объясняет план, варианты и стоимость лечения. Вы всегда понимаете, что происходит и почему.</p>
-      <ul><li>Точная диагностика</li><li>Понятный план лечения</li><li>Безопасные материалы</li><li>Гарантия на работы</li></ul>
-    </div>
-  </div>
-</section>
-
-<section class="stats"><div class="container stat-grid">
-  <div><strong>12+</strong><span>лет опыта</span></div>
-  <div><strong>18 000+</strong><span>пациентов</span></div>
-  <div><strong>97%</strong><span>рекомендуют нас</span></div>
-  <div><strong>4.9</strong><span>средняя оценка</span></div>
-</div></section>
-
-<section class="doctors" id="doctors">
-  <div class="container">
-    <p class="eyebrow">Команда</p><h2>Наши специалисты</h2>
-    <div class="doctor-grid">
-      <article><img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=700&q=85" alt=""><h3>Александр Ким</h3><p>Стоматолог-терапевт</p></article>
-      <article><img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=700&q=85" alt=""><h3>Айгерим Садыкова</h3><p>Стоматолог-ортодонт</p></article>
-      <article><img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=700&q=85" alt=""><h3>Руслан Ибраев</h3><p>Стоматолог-хирург</p></article>
-      <article><img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=700&q=85" alt=""><h3>Диана Омарова</h3><p>Детский стоматолог</p></article>
-    </div>
-  </div>
-</section>
-
-<section class="lead-section" id="lead">
-  <div class="container lead-grid">
-    <div><p class="eyebrow">Консультация</p><h2>Оставьте заявку — администратор свяжется с вами</h2><p>Укажите имя, номер телефона и нужную услугу.</p><a class="big-phone" href="tel:+77001234567">+7 700 123 45 67</a></div>
-    <form id="leadForm">
-      <label>Имя<input name="name" required placeholder="Ваше имя"></label>
-      <label>Телефон<input name="phone" required placeholder="+7 ___ ___ __ __"></label>
-      <label>Услуга<select name="service" required><option value="">Выберите услугу</option><option>Лечение кариеса</option><option>Профессиональная чистка</option><option>Имплантация</option><option>Протезирование</option><option>Исправление прикуса</option><option>Отбеливание зубов</option></select></label>
-      <label>Комментарий<textarea name="comment" rows="4" placeholder="Что вас беспокоит?"></textarea></label>
-      <button class="btn dark full" type="submit">Отправить заявку</button>
-      <p id="formStatus" class="status"></p>
-    </form>
-  </div>
-</section>
-
-<section class="contacts" id="contacts">
-  <div class="container contact-grid">
-    <div><p class="eyebrow">Контакты</p><h2>Мы рядом</h2><p>г. Алматы, проспект Абая, 120</p><p>Пн–Сб: 09:00–20:00<br>Вс: 10:00–18:00</p></div>
-    <div class="map"><b>Карта клиники</b><span>Здесь можно вставить Google Maps или 2GIS</span></div>
-  </div>
-</section>
-</main>
-
-<footer><div class="container footer"><a class="logo" href="#home"><span>✦</span>Dantoa</a><p>Современная стоматология для всей семьи.</p><p>© 2026 Dantoa</p></div></footer>
-<script src="./script.js"></script>
+    <section id="reviews" class="testimonial section-pad"><div class="quote">вЂњ</div><div><p>вЂњThe team at Bright Dental is amazing! They made me feel comfortable and explained everything clearly. I couldn't be happier with my smile!вЂќ</p><b>вЂ” Emily R.</b></div><div class="dots">в—ЏгЂЂв—‹гЂЂв—‹</div></section>
+    <section id="booking" class="booking"><div><h3>Ready to Smile Brighter?</h3><p>Schedule your appointment today. We can't wait to meet you!</p></div><a class="button white" href="mailto:hello@brightdental.com?subject=Book%20an%20appointment">в–Ј &nbsp; Book Appointment</a></section>
+  </main>
+  <footer id="contact"><div class="footer-grid"><div><a class="brand footer-brand" href="#home"><span class="tooth">в—Љ</span><span><b>Bright<span>Dental</span></b><small>WE CARE FOR YOUR SMILE</small></span></a><p>Modern dentistry with a gentle touch.<br>Healthy smiles for a better life.</p><div class="social">fгЂЂв—ЋгЂЂG+гЂЂв—‰</div></div><div><h4>Quick Links</h4><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#patients">Patients</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></div><div><h4>Our Services</h4><div id="footer-services"></div></div><div><h4>Contact Us</h4><p>вЊ– 123 Smile Avenue<br>Happyville, CA 12345</p><p>вЋ (555) 123-4567<br>вњ‰ info@brightdental.com</p><p>в—· MonвЂ“Thu: 8:00 AMвЂ“6:00 PM<br>Fri: 8:00 AMвЂ“5:00 PM<br>Sat: 9:00 AMвЂ“1:00 PM</p></div></div><div class="copyright"><span>В© 2024 Bright Dental. All Rights Reserved.</span><span>Privacy PolicyгЂЂ|гЂЂTerms of Service</span></div></footer>
+  <div id="toast" class="toast">Thanks! We'll contact you shortly.</div>
+  <script src="script.js"></script>
 </body>
 </html>
+
